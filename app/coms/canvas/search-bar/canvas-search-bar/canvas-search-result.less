@@ -1,0 +1,109 @@
+.result-box {
+  clear: both;
+  max-height: 350px;
+  width: 100%;
+  overflow: overlay;
+  padding: 0 13px;
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.93);
+  .result-item {
+    border-top: 1px dashed #ddd;
+    .result-item-row {
+      height: 22px;
+      margin: 4px 0;
+      &:first-child {
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+      a{
+        float: left;
+      }
+      label {
+        color: #aaa;
+        font-weight: normal;
+        margin-bottom: 0;
+        vertical-align: middle;
+        float: left;
+      }
+      .text {
+        margin-left: 8px;
+        &.des {
+          display: inline-block;
+          width: auto;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          vertical-align: middle;
+          float: left;
+        }
+      }
+    }
+    .field {
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .field-2 {
+      width: 45%;
+    }
+    .field-3 {
+      width: 32%;
+    }
+    .drag-btn {
+      border: none;
+      color: #fff;
+      padding: 3px 10px;
+      margin-right: 20px;
+      border-radius: 4px;
+      float: right;
+      &.blue {
+        background: #51aaff;
+        &.seleted {
+          background-color: #1f77b4;
+        }
+      }
+      &.green {
+        background-color: #12dec6;
+        &.seleted {
+          background-color: #0cbea9;
+        }
+      }
+      &.purple {
+        background-color: #4584f8;
+        &.seleted {
+          background-color: #4f7cd4;
+        }
+      }
+    }
+  }
+  &.mark-result-box {
+    .entity-box {
+      width: 390px;
+    }
+    .link-box {
+      width: 390px;
+    }
+    .result-item {
+      .title {
+        margin: 3px 0 8px 0;
+      }
+      .result-item-row {
+        height: 19px;
+        margin: 4px 0;
+        .field {
+          height: 19px;
+        }
+        &:first-child {
+          margin-top: 8px;
+          margin-bottom: 8px;
+        }
+      }
+      .drag-btn {
+        margin: 0 5px 5px 0;
+        float: none;
+        clear: both;
+      }
+    }
+  }
+}

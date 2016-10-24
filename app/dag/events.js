@@ -1,0 +1,27 @@
+"use strict";
+
+module.exports = { //画布上的事件
+  DATASET_ADD_ELEMENT: "dataset_add_element",
+  DATASET_REMOVE_ELEMENT: "dataset_remove_element",
+  ADD_ANNULAR: "addAnnular",
+  REMOVE_ANNULAR: "removeAnnular",
+  ADD_CHILDANNULAR: "addChildAnnular",
+  SHOW_CXTMENU: "showCtxMenu",
+  EXPLORE_NODE: "exploreNode",
+  UNEXPLORE_NODE: "unExploreNode",
+  CLOSE_EXPLORENODE: "closeExploreNodes",
+  COLLAPSE_NODE: "CollapseNode",
+  FOCUS_NODE: "focusNode",
+  UNFOCUS_NODE: "unFocusNode",
+  SELECT_NODE: "selectNode",
+  UNSELECT_NODE: "unSelectNode",
+  SHOW_DETAILCIRCLE: "showDetailCircle",
+  REMOVE_DETAILCIRCLE: "removeDetailCircle",
+  SHOW_DETAILENTITY: "showDetailentity",
+  HIDE_DETAILENTITY: "hideDetailentity",
+  REMOVE_DOMAINDETIAL: "removeDomainDetial",
+  SHOW_MULTIPILE_DROPDOWN: "show_multipile_dropdown",
+  HIDE_MULTIPILE_DROPDOWN: "hide_multipile_dropdown",
+  ENTITY_RECOMMENT_MODAL: "entity_recomment_modal",
+  SHOW_DELETE_BTN: "show_delete_btn",
+};

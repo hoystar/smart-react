@@ -1,0 +1,41 @@
+{
+    "errorCode": 0,
+    "data": {
+        "edges": [
+            {
+                "identifier": "teacher-xs-xs",
+                "type": 1,
+                "vertexs": [
+                    "teacher-xs",
+                    "xs"
+                ]
+            },
+            {
+                "identifier": "teacher-xs-teacher",
+                "type": 1,
+                "vertexs": [
+                    "teacher-xs",
+                    "teacher"
+                ]
+            }
+        ],
+        "vertexs": [
+            {
+                "identifier": "teacher-xs",
+                "type": 2,
+                "content": [
+                    {
+                        "code": "student_f_teacher",
+                        "name": "授课",
+                        "description": "",
+                        "tagCount": 0,
+                        "domainType": 2
+                    }
+                ],
+                "critical": true,
+                "detectable": false
+            }
+        ]
+    },
+    "rid": "1e0be24e14749595769511851e"
+}

@@ -1,0 +1,118 @@
+{
+    "errorCode": 0,
+    "data": [
+        {
+            "id": "33030d5d-e72f-4980-830d-5de72f3980bd",
+            "name": "cat1",
+            "children": [
+                {
+                    "id": "62bc873b-4990-43f6-bc87-3b4990f3f650",
+                    "name": "cat1_1",
+                    "children": [
+                        {
+                            "id": "816713cf-0d68-40bd-a713-cf0d6840bd32",
+                            "name": "cat1_1_1",
+                            "tags": [
+                                {
+                                    "code": "name",
+                                    "name": "name",
+                                    "markedDomainCode": "item"
+                                },
+                                {
+                                    "code": "age",
+                                    "name": "age",
+                                    "markedDomainCode": "item"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "33030d5d-e72f-4980-830d-5de72f3980be",
+            "name": "cat2",
+            "children": [
+                {
+                    "id": "62bc873b-4990-43f6-bc87-3b4990f3f651",
+                    "name": "cat2_1",
+                    "children": [
+                        {
+                            "id": "816713cf-0d68-40bd-a713-cf0d6840bd33",
+                            "name": "cat2_1_1",
+                            "tags": [
+                                {
+                                    "code": "name",
+                                    "name": "name",
+                                    "markedDomainCode": "item"
+                                },
+                                {
+                                    "code": "age",
+                                    "name": "age",
+                                    "markedDomainCode": "item"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "33030d5d-e72f-4980-830d-5de72f3980bf",
+            "name": "cat3",
+            "children": [
+                {
+                    "id": "62bc873b-4990-43f6-bc87-3b4990f3f652",
+                    "name": "cat3_1",
+                    "children": [
+                        {
+                            "id": "816713cf-0d68-40bd-a713-cf0d6840bd34",
+                            "name": "cat3_1_1",
+                            "tags": [
+                                {
+                                    "code": "name",
+                                    "name": "name",
+                                    "markedDomainCode": "item"
+                                },
+                                {
+                                    "code": "age",
+                                    "name": "age",
+                                    "markedDomainCode": "item"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "33030d5d-e72f-4980-830d-5de72f3980bg",
+            "name": "cat4",
+            "children": [
+                {
+                    "id": "62bc873b-4990-43f6-bc87-3b4990f3f654",
+                    "name": "cat4_1",
+                    "children": [
+                        {
+                            "id": "816713cf-0d68-40bd-a713-cf0d6840bd35",
+                            "name": "cat4_1_1",
+                            "tags": [
+                                {
+                                    "code": "name",
+                                    "name": "name",
+                                    "markedDomainCode": "item"
+                                },
+                                {
+                                    "code": "age",
+                                    "name": "age",
+                                    "markedDomainCode": "item"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rid": "1e0be24014749475191101269e"
+}

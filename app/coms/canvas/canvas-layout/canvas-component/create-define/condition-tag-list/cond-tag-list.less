@@ -1,0 +1,155 @@
+@blue-color: #2db7f5;
+@gray-color: #ccc;
+@white-color: #fff;
+.span(@border-color: @gray-color, @background-color: @white-color, @border-width: 1px) {
+  margin: 5px;
+  border: @border-width solid @border-color;
+  background-color: @background-color;
+  line-height: 10px;
+  padding: 6px;
+  display: inline-block;
+}
+
+.border_radius(@radius: 10px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+.explore-steps-second-content {
+  .explore-steps-condition {
+    .ant-tabs {
+      padding: 20px 0;
+      opacity: 0.9;
+    }
+    .ant-tabs-bar {
+      border-bottom: 0;
+    }
+    .ant-tabs-nav {
+      margin: 0 10px;
+      z-index: 111;
+    }
+    .ant-tabs .ant-tabs-content {
+      z-index: 99;
+      height: 100%;
+      .border_radius();
+      background-color: @white-color;
+      border: 1px solid @gray-color;
+    }
+    .leftSetting {
+      width: 60%;
+      float: left;
+      border-right: 1px solid @gray-color;
+      .card-title {
+        border-bottom: 1px dashed @gray-color;
+        position: relative;
+        height: 20px;
+        z-index: 101;
+        span {
+          position: absolute;
+          left: 15px;
+          top: 10px;
+          background-color: @white-color;
+          cursor: pointer;
+          line-height: 20px;
+          &:after {
+            font-family: anticon!important;
+            font-style: normal;
+            content: "\E603";
+            font-size: 10px;
+            padding-left: 5px;
+          }
+        }
+      }
+      .card-title-expand {
+        span {
+          &:after {
+            content: "\E602";
+          }
+        }
+      }
+      .card-container {
+        padding: 10px;
+        max-height: 0;
+        opacity: 0;
+        z-index: 99;
+        -webkit-transition: all .4s ease;
+        transition: all .4s ease;
+        .border_radius();
+      }
+      .card-container-expand {
+        max-height: 500px;
+        opacity: 1;
+      }
+    }
+    .in-out-condition {
+      width: 100% !important;
+      float: none !important;
+      border-right: 0 !important;
+      .explore-steps-search {
+        .objectTag {
+          .border_radius();
+          .span(#d9fdd5, #d9fdd5);
+        }
+        .linkTag {
+          .border_radius();
+          .span(#d5f1fd, #d5f1fd);
+        }
+      }
+      .card-container {
+        /*                 span {
+    .border_radius();
+    .span(#23a1f0, #d5f1fd);
+} */
+      }
+    }
+    .path-condition {
+      width: 100% !important;
+      float: none !important;
+      border: 1px solid @gray-color !important;
+      .border_radius();
+      margin-top: 15px;
+      background-color: @white-color;
+      opacity: 0.9;
+      text-align: left;
+      padding: 0 20px;
+      .link {
+        span {
+          .border_radius();
+          .span(#d5f1fd, #d5f1fd);
+        }
+        .activeObject {
+          border-color: #000;
+        }
+      }
+      .object {
+        margin: 5px 0;
+        span {
+          .border_radius();
+          .span(#d9fdd5, #d9fdd5);
+        }
+        .activeObject {
+          border-color: #000;
+        }
+      }
+      .explore-steps-batch-setting {
+        border-bottom: 1px dashed @gray-color;
+        position: relative;
+        height: 20px;
+        z-index: 101;
+        span {
+          position: absolute;
+          left: 15px;
+          top: 10px;
+          background-color: @white-color;
+        }
+      }
+      .explore-steps-batch-setting-container {
+        margin: 20px 0;
+        span {
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}

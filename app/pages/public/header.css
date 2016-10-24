@@ -1,0 +1,73 @@
+.dtboost-header {
+  position: relative;
+  z-index: 1001;
+  width: 100%;
+  background: #24292e;
+  font-size: 16px;
+  @img-height: 36px;
+  .dtboost-logo {
+    float: left;
+    margin: (64px-@img-height)/2 0 (64px-@img-height)/2 18px;
+    img {
+      float: left;
+      height: @img-height;
+    }
+    .logo {
+      float: left;
+      height: 36px;
+      line-height: 36px;
+      font-size: 20px;
+      margin-left: 12px;
+      color: #fff;
+    }
+  }
+  .dtboost-header-workspace{
+    float: left;
+    margin-left: 76px;
+    .workspaces{
+      span{
+       padding-left:5px;
+      }
+    }
+  }
+  .ant-menu {
+    line-height: 64px;
+    float: right;
+    font-size: .875em;
+    position: relative;
+    margin-right: 21px;
+    a{
+      color: #fff;
+    }
+  }
+  .userinfo{
+    span{
+      padding-left:5px;
+    }
+  }
+  .ant-menu-horizontal {
+    border-bottom: 0;
+    background: transparent;
+    color: #fff;
+  }
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .ant-menu-horizontal > .ant-menu-item,
+  .ant-menu-horizontal > .ant-menu-submenu {
+    font-size: 16px;
+    a{
+      color:#fff;
+    }
+    .ant-menu-sub{
+      background: #24292e;
+        li{
+          a:hover {
+            color: #2db7f5;
+          }
+        }
+    }
+  }
+}

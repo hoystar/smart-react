@@ -1,0 +1,302 @@
+
+.rect {
+  stroke: #3672ad;
+  stroke-width: 1.5px;
+  stroke-dasharray: 3 3
+}
+
+
+.svg-container {
+  width:100%;
+  height:100%;
+}
+
+.canvas-container {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  text-align: center; 
+}
+
+.dag-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.node {
+  stroke: #ccc;
+  stroke-width: 1.7px;
+  cursor: move;
+}
+
+.node-container .iconfont {
+    border-radius: 50%;
+    color: #aaa;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.info-container .iconfont {
+    font-size: 15px;
+    color: #aaa;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.node-focus {
+  stroke: #ff7500;
+}
+
+.node-dash {
+}
+
+.diamond {
+  stroke: #2da692;
+  stroke-width: 1.5px;
+  stroke-dasharray: 3 3
+}
+.circle {
+  stroke: #2da692;
+  stroke-width: 1.5px;
+  stroke-dasharray: 3 3;
+}
+
+.link {
+  stroke: #ccc;
+  stroke-width: 1.2px;
+  stroke-opacity: 1;
+}
+
+.link-focus {
+  stroke: #3daefe;
+}
+.link-weight {
+  stroke-width: 4.8px;
+}
+
+.link-flow {
+  stroke: #ccc;
+  stroke-width: 3px;
+  stroke-opacity: 1;
+}
+
+.link-focus {
+  stroke: #3daefe;
+}
+
+.label {
+  stroke: #aaa;
+  stroke-width: 0;
+  fill: #aaa;
+  pointer-events: none;
+  font-family: Verdana;
+  font-size: 13px;
+  text-anchor: middle;
+  cursor: move;
+  font-weight: 100;
+}
+
+.elementgroup .rect {
+    fill: #fff;
+    stroke: #3daefe;
+}
+
+.rect-focus {
+  fill: #f0f9ff;
+}
+
+.elementgroup .diamond {
+    fill: #fff;
+    stroke: #12dec6;
+}
+
+.diamond-focus {
+  fill: #f0fffd;
+}
+
+.elementgroup .circle {
+    fill: #fff;
+    stroke: #12dec6;
+}
+
+.diamond-focus {
+  fill: #f0fffd;
+}
+
+.nodegroup .rect {
+  fill: #fff;
+  stroke: #3daefe;
+  stroke-dasharray: none;
+}
+
+.nodegroup .rect-focus {
+  fill: #f0f9ff;
+}
+
+.nodegroup .diamond {
+  fill: #fff;
+  stroke: #12dec6;
+  stroke-dasharray: none;
+}
+
+.nodegroup .diamond-focus {
+  fill: #f0fffd;
+}
+
+.nodegroup .circle {
+  fill: #fff;
+  stroke: #12dec6;
+}
+
+.diamond-focus {
+  fill: #f0fffd;
+}
+
+.nodegroup .radio {
+  fill: #fff;
+  stroke: #3daefe;
+  cursor: crosshair;
+}
+
+.annulargroup .annular-close-btn {
+  color: #999;
+  background-color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.annulargroup path {
+  cursor: pointer;
+  stroke: #fff;
+  stroke-width: 2px;
+  fill: #4584f8;
+  fill-opacity: 0.85;
+}
+
+.annulargroup path:hover {
+  fill-opacity: 1;
+  fill: #4f7cd4;
+}
+
+.annulargroup text {
+  pointer-events: none;
+  cursor: pointer;
+  fill: #fff;
+  font-size: 12px;
+}
+
+.all-http-right{
+  /*width:85%;*/
+  width:75%;
+  float:left;
+  height:100%;
+  background-color:#FFF;
+  position:relative;
+}
+
+section{
+  width:100%;
+  overflow:hidden;
+}
+
+.annulargroup .rect,.annulargroup .diamond {
+  stroke-dasharray:none;
+  fill:#fff;
+}
+
+.annulargroup .rect{
+  stroke:#3daefe;
+}
+
+.annulargroup .diamond{
+  stroke:#12dec6;
+}
+
+.annulargroup .node:hover{
+  cursor:auto;
+}
+
+.annulargroup .rect-focus{
+  fill:#fff;
+}
+.annulargroup .label{
+  fill:#aaa;
+}
+
+.all-http-right-menu{
+  width:100%;
+  height:30px;
+  background-color:#cacaca;
+}
+
+.all-http-right-menu ul{
+  width:100%;
+  height:100%;
+}
+
+.all-http-right-menu ul li{
+  float:left;
+  margin-left:10px;
+  height:100%;
+  width:auto;
+  padding:0 5px 0 5px;
+  line-height:30px;
+
+}
+
+.all-http-right-search{
+  position:absolute;
+  width:auto;
+  height:auto;
+  top:35px;
+  left:5px;
+  -moz-box-shadow: 2px 2px 6px #c4c4c4; /* 老的 Firefox */
+  box-shadow: 2px 2px 6px #c4c4c4;
+  background-color:#fff;
+}
+
+.all-http-right-btnsearch{
+  width:25px;
+  height:25px;
+  background-color:#fff;
+  line-height:25px;
+  text-align:center;
+  cursor:pointer;
+  display:none;
+}
+
+.all-http-right-detailsearch{
+  width:250px;
+  height:auto;
+}
+
+.all-http-right-detailsearch-li-btn{
+  width:60px;
+  height:25px;
+  background-color:blue;
+  color:#fff;
+  float:right;
+  font-size:14px;
+  text-align:center;
+  line-height:25px;
+  margin:10px;
+  cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

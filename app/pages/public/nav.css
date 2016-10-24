@@ -1,0 +1,50 @@
+nav{
+	float:left;
+	/*width:15%;*/
+	width:25%;
+	height:100%;
+	background-color:#cfc;
+}
+
+.nav-mainmenu{
+	height:100%;
+	width:60%;
+	float:left;
+	background-color:#3C3C3C;
+	color:#fff;
+}
+
+.nav-mainmenu header{
+	background-color:#3C3C3C;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	text-align:center;
+}
+
+.nav-mainmenu ul li{
+	cursor:pointer;
+}
+
+.nav-secondmenu{
+	height:100%;
+	width:40%;
+	float:left;
+	background-color:#fff;
+	color:#000;
+}
+
+.nav-secondmenu h3{
+	text-align:center;
+}
+
+.nav-secondmenu ul li{
+	cursor:pointer;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+}
+
+.nav-secondmenu ul li:hover{
+	background-color:#EAEAEA;
+}
